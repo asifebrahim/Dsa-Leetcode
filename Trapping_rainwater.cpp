@@ -54,6 +54,7 @@ public:
      height is lower than the boundary height then the max height will be the boundary height and
      it will be deciding factor in the future though we work with min heights for storing water.
     Time Complexity: O(m*n*log(m*n)) where m and n are the dimensions of the heightMap.
+    Space Complexity: O(m*n).
 
     We dont check neighbours while adding the height to the ans because
     if a cellls height is greater than the boundary height and its other neighbour height is also lower 
