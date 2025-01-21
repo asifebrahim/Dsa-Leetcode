@@ -5,6 +5,7 @@ public:
                (a.second - b.second) * (a.second - b.second);
     }
 
+//Function for valid square.
     bool validSquare(vector<int>& p1, vector<int>& p2, vector<int>& p3, vector<int>& p4) {
         vector<pair<int, int>> points = {{p1[0], p1[1]}, {p2[0], p2[1]}, {p3[0], p3[1]}, {p4[0], p4[1]}};
         vector<int> dists;
